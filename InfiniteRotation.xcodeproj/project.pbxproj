@@ -15,6 +15,8 @@
 		96C6B3A52073708F00D1E560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C6B3A42073708F00D1E560 /* main.m */; };
 		96C6B3AF2073708F00D1E560 /* InfiniteRotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C6B3AE2073708F00D1E560 /* InfiniteRotationTests.m */; };
 		96C6B3BA2073708F00D1E560 /* InfiniteRotationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C6B3B92073708F00D1E560 /* InfiniteRotationUITests.m */; };
+		96C6B3CB2073719100D1E560 /* SUTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C6B3C82073719100D1E560 /* SUTableView.m */; };
+		96C6B3CC2073719100D1E560 /* SUTableViewInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C6B3CA2073719100D1E560 /* SUTableViewInterceptor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		96C6B3B52073708F00D1E560 /* InfiniteRotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteRotationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C6B3B92073708F00D1E560 /* InfiniteRotationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteRotationUITests.m; sourceTree = "<group>"; };
 		96C6B3BB2073708F00D1E560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C6B3C72073719000D1E560 /* SUTableViewInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUTableViewInterceptor.h; sourceTree = "<group>"; };
+		96C6B3C82073719100D1E560 /* SUTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUTableView.m; sourceTree = "<group>"; };
+		96C6B3C92073719100D1E560 /* SUTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUTableView.h; sourceTree = "<group>"; };
+		96C6B3CA2073719100D1E560 /* SUTableViewInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUTableViewInterceptor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 		96C6B3892073708E00D1E560 = {
 			isa = PBXGroup;
 			children = (
+				96C6B3C92073719100D1E560 /* SUTableView.h */,
+				96C6B3C82073719100D1E560 /* SUTableView.m */,
+				96C6B3C72073719000D1E560 /* SUTableViewInterceptor.h */,
+				96C6B3CA2073719100D1E560 /* SUTableViewInterceptor.m */,
 				96C6B3942073708E00D1E560 /* InfiniteRotation */,
 				96C6B3AD2073708F00D1E560 /* InfiniteRotationTests */,
 				96C6B3B82073708F00D1E560 /* InfiniteRotationUITests */,
@@ -268,6 +278,8 @@
 				96C6B39A2073708E00D1E560 /* ViewController.m in Sources */,
 				96C6B3A52073708F00D1E560 /* main.m in Sources */,
 				96C6B3972073708E00D1E560 /* AppDelegate.m in Sources */,
+				96C6B3CB2073719100D1E560 /* SUTableView.m in Sources */,
+				96C6B3CC2073719100D1E560 /* SUTableViewInterceptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H6Q7G8L7K;
 				INFOPLIST_FILE = InfiniteRotation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.InfiniteRotation";
@@ -444,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H6Q7G8L7K;
 				INFOPLIST_FILE = InfiniteRotation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.InfiniteRotation";
